@@ -1,0 +1,17 @@
+{
+  "name": "s03e05-challenge-revision-cino-clock-yin-lo",
+  "version": "1.0.0",
+  "description": "## Présentation",
+  "main": "cinoclock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3"
+  }
+}
