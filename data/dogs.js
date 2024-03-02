@@ -1,7 +1,7 @@
 const dogs = [
     {
         url: 'boby-leo-et-molie',
-        pic: '/images/blm.jpg',
+        pic: '/img/blm.jpg',
         age: '5 mois',
         name: 'Boby, Léo et Molie',
         color: 'Noir et blanc, noir et feu',
@@ -15,7 +15,7 @@ const dogs = [
     },{
         name: 'Choupy',
         url: 'choupy',
-        pic: '/images/choupy.jpg',
+        pic: '/img/choupy.jpg',
         age: '1 an',
         color: 'Blanc',
         signe: 'Très ... vivant ! ',
@@ -28,7 +28,7 @@ const dogs = [
     },{
         url: 'plouf',
         name: 'Plouf',
-        pic: '/images/plouf.jpg',
+        pic: '/img/plouf.jpg',
         age: '4 mois',
         color: 'Noir et feu',
         signe: 'Malicieux',
@@ -41,7 +41,7 @@ const dogs = [
     },{
         url: 'pouik',
         name: 'Pouik',
-        pic: '/images/pouik.jpg',
+        pic: '/img/pouik.jpg',
         age: '9 mois',
         color: 'Blond',
         signe: 'Calme et posé',

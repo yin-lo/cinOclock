@@ -13,6 +13,16 @@ app.get('/', (req, res) => {
 	res.render('home.ejs');
 });
 
+app.get('/dogs', (req,res) => {
+	res.render('dogs.ejs',{dogs})
+});
+
+app.get('/dogs/:dogUrl', (req,res) => {
+	const dog = dogs.find((dogy) => dogy.url === req.params.dogUrl);
+	res.render('details.ejs',{dog});
+})
+
+
 app.listen(PORT, () => {
 	console.log(`Listening at http://localhost:${PORT}`);
 });
